@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ConsultyD</title>
+    <link rel="stylesheet" href="style-cabeçalho.css" />
+
+    <!-- Favicons do site -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="Midia/Icon-logo-32x32.png"
+    />
+  </head>
+
+  <body>
+    <header>
+      <!--Inicio do Cabeçalho-->
+      <h2 class="logo">
+        Consult<span><b>yD</b></span>
+      </h2>
+      <nav class="navigation">
+        <a href="index-portifolio.html">Home</a>
+        <a href="https://jandekko.github.io/Meu-Curriculo-On-Line/"
+          >Curriculum</a
+        >
+        <a href="index-aviso.html">Aviso!</a>
+        <a href="index-link-bio.html">Meus contatos</a>
+        <button class="btnLogin-popup">Login</button>
+      </nav>
+      <!--Fim do Cabeçalho-->
+    </header>
+
+    <!--Inicio Login registro / botão logim-->
+    <div class="wrapper">
+      <!--Icone de fechar (X)-->
+      <span class="icon-close"
+        ><ion-icon name="close-circle-outline"></ion-icon
+      ></span>
+
+      <!--Inicio área do login-->
+      <div class="form-box login">
+        <h2>Login</h2>
+        <form action="#">
+          <!--Informar o E-mail-->
+          <div class="input-box">
+            <span class="icon"><ion-icon name="mail-outline"></ion-icon></span>
+            <input type="email" required />
+            <label>E-mail</label>
+          </div>
+
+          <!--Informar a Senha-->
+          <div class="input-box">
+            <span class="icon"
+              ><ion-icon name="lock-closed-outline"></ion-icon
+            ></span>
+            <input type="password" required />
+            <label>Senha</label>
+          </div>
+
+          <!--Informar se deseja lembrar/ recuperar senha-->
+          <div class="remember-forgot">
+            <label><input type="checkbox" />Remember me</label>
+            <a href="#">Forgot Parssword?</a>
+          </div>
+
+          <!--Criando o botão logar-->
+          <button type="submit" class="btn">Login</button>
+
+          <!--Informar se deseja Criar sua conta-->
+          <div class="login-register">
+            <p>
+              Don't have an account?<a href="#" class="register-link"
+                >Register</a
+              >
+            </p>
+          </div>
+        </form>
+      </div>
+      <!--Fim área do login-->
+
+      <!--Inicio área do Registro-->
+      <div class="form-box register">
+        <h2>Registration</h2>
+        <form action="#">
+          <!--Informar o Nome-->
+          <div class="input-box">
+            <span class="icon"
+              ><ion-icon name="person-outline"></ion-icon
+            ></span>
+            <input type="text" required />
+            <label>Username</label>
+          </div>
+
+          <!--Informar o E-mail-->
+          <div class="input-box">
+            <span class="icon"><ion-icon name="mail-outline"></ion-icon></span>
+            <input type="email" required />
+            <label>E-mail</label>
+          </div>
+
+          <!--Informar a Senha-->
+          <div class="input-box">
+            <span class="icon"
+              ><ion-icon name="lock-closed-outline"></ion-icon
+            ></span>
+            <input type="password" required />
+            <label>Senha</label>
+          </div>
+
+          <!--Informar se deseja lembrar/ recuperar senha-->
+          <div class="remember-forgot">
+            <label
+              ><input type="checkbox" />I agree to the terms & conditions</label
+            >
+          </div>
+
+          <!--Criando o botão logar-->
+          <button type="submit" class="btn">Register</button>
+
+          <!--Informar ja tenho conta-->
+          <div class="login-register">
+            <p>
+              Already have an account?<a href="#" class="login-link">Login</a>
+            </p>
+          </div>
+        </form>
+      </div>
+      <!--Fim área do Registro-->
+    </div>
+    <!--Fim Login registro / botão logim-->
+
+    <!--Java Script-->
+    <script src="script.js"></script>
+
+    <!--Instalação para usar os icones-->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
